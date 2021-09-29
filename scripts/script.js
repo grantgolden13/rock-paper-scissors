@@ -51,10 +51,10 @@ function game() {
             playerWins++;
             console.log(`You win! ${playerSelection} beats ${computerSelection}`);
         } else if (result === "You Lose") {
-            computerWins++
+            computerWins++;
             console.log(`You lose! ${computerSelection} beats ${playerSelection}`);
         } else {
-            console.log(`Tied! You chose ${playerSelection}, computer chose ${computerSelection}`)
+            console.log(`Tied! You chose ${playerSelection}, computer chose ${computerSelection}`);
         }
     }
 }
