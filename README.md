@@ -1,0 +1,1 @@
+A simply rock paper scissors game made with basic JS functions.
