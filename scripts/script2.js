@@ -25,7 +25,7 @@ function playRound(playerSelection, computerSelection) {
     }
 }
 
-// plays 5 iterations of the game with function playRound(), and keeps score in the console
+// plays 5 iterations of the game with function playRound() and keeps score in the console
 
 function game() {
     let computerWins = 0;
@@ -34,10 +34,10 @@ function game() {
         result = playRound();
         if (result.charAt(4) === "w") {
             console.log("You win!")
-            console.log(`Player: ${playerWins++} Computer: ${computerWins}`);
+            console.log(`Player: ${++playerWins} Computer: ${computerWins}`);
         } else if (result.charAt(4) === "l") {
             console.log("You lose!")
-            console.log(`Player: ${playerWins} Computer: ${computerWins++}`);
+            console.log(`Player: ${playerWins} Computer: ${++computerWins}`);
         } else {
             console.log("It's a tie.");
         }
