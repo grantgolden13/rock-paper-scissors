@@ -1,0 +1,50 @@
+html {
+    line-height: 1.15;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button {
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0;
+    border-style: none;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    row-gap: 75px;
+    height: 100vh;
+    background-image: url(images/s-background.jpg);
+}
+
+h1 {
+    font-size: 2em;
+    margin-top: 100px;
+}
+
+h2 {
+    font-weight: normal;
+}
+
+.btn {
+    border: 1.5px solid black;
+    border-radius: 10%;
+    padding: 10px;
+    margin: 10px;
+}
+
+main {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+#result {
+    flex: 0 0 250px;
+    text-align: center;
+}
